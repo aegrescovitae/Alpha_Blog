@@ -1,3 +1,151 @@
+/*=============================
+Bootstrap
+=============================*/
+$navbar-default-bg: #f2f2f2;
 @import "bootstrap-mincer";
 @import "bootstrap";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*=============================
+
+=============================*/
+
+
+
+/*=============================
+Custom Style
+=============================*/
+
+body {
+  color: #262626;
+  background-color: #e6e6e6;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: #595959;
+    border: 1px solid #999999;
+}
+
+.btn-xlarge:hover {
+    background: #666666;
+    border: 1px solid #999999;
+}
+
+/*=============================
+Logo
+=============================*/
+
+.logo {
+    margin: 2px 25px 0 0;
+    padding: 0 0 0 10px;
+    float: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+/*=============================
+Jumbotron
+=============================*/
+
+.jumbotron h1 {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: asset-url('codewallpaper.jpg');
+    background-size: cover;
+    height: 550px;
+}
+
+
+/*=============================
+Footer
+=============================*/
+
+footer {
+  margin-top: 50px;
+  padding-top: 5px;
+  border-top: 1px solid #3b3d3c;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
 
