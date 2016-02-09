@@ -111,6 +111,16 @@ body {
   font-size: 1.5em;
 }
 
+.article-title a {
+  color:#262626;
+  font-weight: 500;
+}
+
+.article-title a:hover {
+  color: #696B7D;
+  text-decoration: none;
+}
+
 .article-body {
   padding-top: 15px;
   border-top: 1px solid #e6e6e6;
