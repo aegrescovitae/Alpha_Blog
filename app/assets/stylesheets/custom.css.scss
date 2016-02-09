@@ -112,7 +112,7 @@ body {
 }
 
 .article-title a {
-  color:#262626;
+  color: #262626;
   font-weight: 500;
 }
 
@@ -134,15 +134,8 @@ Logo
     margin: 2px 25px 0 0;
     padding: 0 0 0 10px;
     float: left;
-    font-size: 1.7em;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-weight: bold;
 }
 
-.logo:hover {
-    text-decoration: none;
-}
 
 /*=============================
 Jumbotron
@@ -152,7 +145,6 @@ Jumbotron
     color: #FFF;
     text-align: center;
     margin-bottom: 30px;
-    letter-spacing: -1px;
     font-weight: bold;
 }
 
@@ -167,26 +159,26 @@ Jumbotron
 Footer
 =============================*/
 
-footer {
+.footer {
   margin-top: 50px;
   padding-top: 5px;
   border-top: 1px solid #3b3d3c;
   color: #777;
 }
 
-footer a:hover {
+.footer a:hover {
   color: #222;
 }
 
-footer small {
+.footer small {
   float: left;
 }
 
-footer ul {
+.footer ul {
   float: right;
 }
 
-footer ul li {
+.footer ul li {
   float: left;
   margin-left: 15px;
 }
