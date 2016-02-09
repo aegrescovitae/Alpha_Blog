@@ -67,7 +67,7 @@ Custom Style
 =============================*/
 
 body {
-  color: #262626;
+  color: #595959;
   background-color: #e6e6e6;
 }
 
@@ -132,9 +132,7 @@ Logo
 =============================*/
 
 .logo {
-    margin: 2px 25px 0 0;
-    padding: 0 0 0 10px;
-    float: left;
+  font-size: 1.2em;
 }
 
 
@@ -161,10 +159,10 @@ Footer
 =============================*/
 
 .footer {
-  margin-top: 50px;
-  padding-top: 5px;
-  border-top: 1px solid #3b3d3c;
+  border-top: 1px solid #bfbfbf;
   color: #777;
+  height: 40px;
+  background-color: #f2f2f2;
 }
 
 .footer a:hover {
@@ -181,6 +179,9 @@ Footer
 
 .footer ul li {
   float: left;
-  margin-left: 15px;
+}
+
+.footerinternal {
+  margin: 8px 8px 0 8px;
 }
 
