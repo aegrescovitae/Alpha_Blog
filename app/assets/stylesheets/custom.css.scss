@@ -4,8 +4,6 @@ Bootstrap
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$navbar-default-bg: #f2f2f2;
-
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
@@ -67,8 +65,9 @@ Custom Style
 =============================*/
 
 body {
-  color: #595959;
-  background-color: #e6e6e6;
+  color: #404040;
+  background-color: #FFF;
+  padding-top: 70px;
 }
 
 .center {
@@ -99,7 +98,7 @@ body {
 
 .article-actions {
   border-top: 1px solid #e6e6e6;
-  padding-top: 5px;
+  padding-top: 10px;
   margin: 100px 0 -12px 0;
 }
 
@@ -126,6 +125,7 @@ body {
   padding-top: 15px;
   border-top: 1px solid #e6e6e6;
 }
+
 
 /*=============================
 Logo
@@ -159,14 +159,18 @@ Footer
 =============================*/
 
 .footer {
+  background-color: #222222;
   border-top: 1px solid #bfbfbf;
-  color: #777;
-  height: 40px;
-  background-color: #f2f2f2;
+  color: #8A8A8A;
+  height: 30px;
+}
+
+.footer a {
+  color: #8A8A8A;
 }
 
 .footer a:hover {
-  color: #222;
+  color: #FFF;
 }
 
 .footer small {
