@@ -96,6 +96,15 @@ body {
   margin-top: 20px;
 }
 
+.page-header {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+/*=============================
+Article Style
+=============================*/
+
 .article-meta-details {
   border-top: 1px solid #e6e6e6;
   margin-top: 15px;
@@ -129,6 +138,12 @@ body {
 .article-body {
   padding-top: 15px;
   border-top: 1px solid #e6e6e6;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+  
 }
 
 
