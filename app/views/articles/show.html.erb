@@ -16,6 +16,7 @@
       </div>
     </div>
   </ul>
+  <hr />
   <%= simple_format(@article.description) %>
   <div class="article-actions">
     <% if logged_in? && (current_user == @article.user || current_user.admin?) %>
