@@ -101,19 +101,23 @@ body {
   margin-bottom: 20px;
   font-weight: bold;
 }
+
+.input_checkbox input {
+  width: auto !important;
+}
 /*=============================
 Article Style
 =============================*/
 
 .article-meta-details {
   border-top: 1px solid #e6e6e6;
-  margin-top: 15px;
+  margin-top: 50px;
 }
 
 .article-actions {
   border-top: 1px solid #e6e6e6;
   padding-top: 10px;
-  margin: 100px 0 -12px 0;
+  margin: 10px 0 -12px 0;
 }
 
 .description {
@@ -148,6 +152,27 @@ Article Style
 
 .show-articles {
   margin: 20px 0 20px 0;
+}
+
+.category-badge {
+  background-color: none;
+}
+
+.category-badge-p {
+  margin-top: 50px;
+}
+
+.category-badge-p-index {
+  margin: 5px 0 10px 0;
+}
+
+.index-meta-details {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.category-count {
+  margin-top: 10px;
 }
 
 
