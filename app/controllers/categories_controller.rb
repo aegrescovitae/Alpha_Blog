@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+  before_action :require_admin, only: [:new, :create, :destroy]
   
   def index
     @categories = Category.paginate(page: params[:page], per_page: 7)
@@ -22,7 +23,18 @@ class CategoriesController < ApplicationController
     
   end
   
+  def destroy
+    
+  end
+  
   private
+  
+  def require_admin
+    if !logged_in? || (logged_in? and !current_user.admin?)
+      flash[:danger] = "You do not have permission for this action!"
+      redirect_to categories_path
+    end
+  end
   
   def category_params
     params.require(:category).permit(:name)
